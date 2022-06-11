@@ -1,0 +1,145 @@
+$kol1:rgb(140, 14, 39);
+$kol2:rgb(56, 53, 53);
+$kol3:rgb(255, 255, 255);
+$kol4: rgb(113, 43, 43);
+$kol5: rgb(0, 0, 0);
+@mixin marpad {
+    margin: 0%;
+    padding: 0%;
+}
+@mixin center-right {
+    display: flex;
+    justify-content: right ;
+    align-items: center;
+}
+
+@mixin center($qw:false) {
+    @if $qw == false {
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+    }@else if $qw == true{
+        margin-top: 50px;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@mixin krze {
+    position: relative;
+    background-color: $kol4;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+@mixin stos($you){
+    width: 300px;
+    height: 500px;
+    @if $you == stos1 {
+        background-image: url(../karta.gif); 
+        
+    } @else if $you == stos2{
+        border: 1px solid $kol3;
+    }
+}
+body{
+    @include center();
+    @include marpad;
+    flex-direction: column;
+    background: $kol1;
+}
+#stol-p1{
+    @include center();
+    margin-top: 150px;
+    height: 600px;
+    width: calc(100vw - 60px);
+    background-color: $kol2;
+    margin-left: -700px;
+}
+#stol-p1 > button{
+    border: 0px;
+    color: $kol1;
+    background: $kol2;
+    font-size: 20vw;
+    width: 100%;
+    height: 100%;
+}
+#krat-p1{
+    display: none;
+    @include center(true)
+    
+}
+#stos1-p1{
+   @include stos(stos1)
+}
+#stos2-p1, #stos3-p1, #stos4-p1, #stos5-p1{
+   @include stos(stos2) 
+}
+
+#odkr{
+    font-size: large;
+    width: 150px;
+    height: 80px;
+    border: 0px;
+    color: $kol1;
+    background: $kol2;
+    margin-right: -50vw;
+    margin-top: -36vh;
+}
+#odkr:hover{
+    color: $kol3;
+    background: $kol5;
+}
+#wynik-p1{
+    display: none;
+    color: $kol1;
+    background: $kol2;
+    font-size: 10vw;
+    width: 100%;
+    margin-left: 450px;
+}
+
+#stol-p2{
+    @include center();
+    margin-top: 150px;
+    height: 600px;
+    width: calc(100vw - 60px);
+    background-color: $kol2;
+    margin-right: -700px;
+}
+#stol-p2 > button{
+    border: 0px;
+    color: $kol1;
+    background: $kol2;
+    font-size: 20vw;
+    width: 100%;
+    height: 100%;
+}
+#krat-p2{
+    transform: scale(-1);
+    display: none;
+    @include center(true)
+    
+}
+#stos1-p2{
+   @include stos(stos1)
+}
+#stos2-p2, #stos3-p2, #stos4-p2, #stos5-p2{
+   @include stos(stos2) 
+}
+
+#wynik-p2{
+    display: none;
+    color: $kol1;
+    background: $kol2;
+    font-size: 10vw;
+    width: 100%;
+    margin-left: 450px;
+}
+#stol-p2, #stol-p1{
+    margin-top: -100px;
+    transform: scale(0.4);
+}

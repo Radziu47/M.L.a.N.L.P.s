@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  flex-direction: column;
+  background: rgb(140, 14, 39);
+}
+
+#stol-p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  height: 600px;
+  width: calc(100vw - 60px);
+  background-color: rgb(56, 53, 53);
+  margin-left: -700px;
+}
+
+#stol-p1 > button {
+  border: 0px;
+  color: rgb(140, 14, 39);
+  background: rgb(56, 53, 53);
+  font-size: 20vw;
+  width: 100%;
+  height: 100%;
+}
+
+#krat-p1 {
+  display: none;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+#stos1-p1 {
+  width: 300px;
+  height: 500px;
+  background-image: url(../karta.gif);
+}
+
+#stos2-p1, #stos3-p1, #stos4-p1, #stos5-p1 {
+  width: 300px;
+  height: 500px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#odkr {
+  font-size: large;
+  width: 150px;
+  height: 80px;
+  border: 0px;
+  color: rgb(140, 14, 39);
+  background: rgb(56, 53, 53);
+  margin-right: -50vw;
+  margin-top: -36vh;
+}
+
+#odkr:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}
+
+#wynik-p1 {
+  display: none;
+  color: rgb(140, 14, 39);
+  background: rgb(56, 53, 53);
+  font-size: 10vw;
+  width: 100%;
+  margin-left: 450px;
+}
+
+#stol-p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  height: 600px;
+  width: calc(100vw - 60px);
+  background-color: rgb(56, 53, 53);
+  margin-right: -700px;
+}
+
+#stol-p2 > button {
+  border: 0px;
+  color: rgb(140, 14, 39);
+  background: rgb(56, 53, 53);
+  font-size: 20vw;
+  width: 100%;
+  height: 100%;
+}
+
+#krat-p2 {
+  transform: scale(-1);
+  display: none;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+#stos1-p2 {
+  width: 300px;
+  height: 500px;
+  background-image: url(../karta.gif);
+}
+
+#stos2-p2, #stos3-p2, #stos4-p2, #stos5-p2 {
+  width: 300px;
+  height: 500px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#wynik-p2 {
+  display: none;
+  color: rgb(140, 14, 39);
+  background: rgb(56, 53, 53);
+  font-size: 10vw;
+  width: 100%;
+  margin-left: 450px;
+}
+
+#stol-p2, #stol-p1 {
+  margin-top: -100px;
+  transform: scale(0.4);
+}/*# sourceMappingURL=style.css.map */
