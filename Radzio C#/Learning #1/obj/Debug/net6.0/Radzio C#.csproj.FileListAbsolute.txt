@@ -1,0 +1,15 @@
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\bin\Debug\net6.0\Radzio C#.exe
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\bin\Debug\net6.0\Radzio C#.deps.json
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\bin\Debug\net6.0\Radzio C#.runtimeconfig.json
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\bin\Debug\net6.0\Radzio C#.dll
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\bin\Debug\net6.0\Radzio C#.pdb
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.dll
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\refint\Radzio C#.dll
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.pdb
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\Radzio C#.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Pulpit\Radzio C#\obj\Debug\net6.0\ref\Radzio C#.dll
