@@ -1,0 +1,38 @@
+{
+    "Consonant": [
+        "W",
+        "R",
+        "P",
+        "S",
+        "D",
+        "G",
+        "K",
+        "L",
+        "Z",
+        "C",
+        "V",
+        "B",
+        "N",
+        "M"
+    ],
+    "Vowel":[
+        "E",
+        "Y",
+        "U",
+        "I",
+        "O",
+        "A",
+        "Ý"
+    ],
+    "QuietLetter" : [
+        "T",
+        "H",
+        "J",
+        "Î"
+    ],
+
+    "QuietLetterVertel" : [
+        "Only After Consonant",
+        "Æ"
+    ]
+}

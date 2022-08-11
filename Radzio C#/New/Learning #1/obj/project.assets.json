@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Pulpit\\Radzio C#\\Radzio C#.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Pulpit\\My learning and not learning projekts\\Radzio C#\\New\\Learning #1\\Radzio C#.csproj",
       "projectName": "Radzio C#",
-      "projectPath": "C:\\Users\\admin\\OneDrive\\Pulpit\\Radzio C#\\Radzio C#.csproj",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Pulpit\\My learning and not learning projekts\\Radzio C#\\New\\Learning #1\\Radzio C#.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\OneDrive\\Pulpit\\Radzio C#\\obj\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Pulpit\\My learning and not learning projekts\\Radzio C#\\New\\Learning #1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
